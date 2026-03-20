@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load saved model, scaler, and expected columns
-model = joblib.load("E:/AI_ML practice/pkl_file/knn_heart_model.pkl")
-scaler = joblib.load("E:/AI_ML practice/pkl_file/heart_scaler.pkl")
-expected_columns = joblib.load("E:/AI_ML practice/pkl_file/heart_columns.pkl")
+model = joblib.load("knn_heart_model.pkl")
+scaler = joblib.load("heart_scaler.pkl")
+expected_columns = joblib.load("heart_columns.pkl")
 
 st.title("Heart Stroke Prediction by Sarthak")
 st.markdown("Provide the following details to check your heart stroke risk:")
